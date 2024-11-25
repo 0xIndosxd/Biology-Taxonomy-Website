@@ -1,0 +1,113 @@
+body {
+    min-width: 600px;
+    min-height: 800px;
+    background-color: rgb(14, 14, 14);
+}
+
+header {
+    width: 85vw;
+}
+
+#header {
+    margin: 0 7.5vw 0 7.5vw;
+}
+
+
+header a span {
+    font-family: "Arimo", sans-serif;
+    font-weight: 600;
+    font-size: calc((100vh + 100vw)/80);
+    color: white;
+}
+
+
+header ul li {
+    font-family: "Arimo", sans-serif;
+    font-size: calc((100vh + 100vw)/120);
+    font-weight: 600;
+    padding: 0 0 0 0.5rem;
+}
+
+#FirstSection {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: calc(100vh - 73px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+#FirstSection .embeded-video{
+    align-self: center;
+    position: absolute;
+    z-index: -1;
+    width: 100% !important;
+    min-width: calc((100vh / 9) * 16);
+    margin: auto;
+}
+
+#FirstSection .linear-gradient-black {
+    z-index: 1;
+    width: 100%;
+    padding: 0 9% 5% 9%;
+}
+
+#FirstSection div h2 {
+    font-family: "Arimo", sans-serif;
+    color: #ffffff;
+    font-size: calc((100vh + 100vw)/40);
+    font-weight: lighter;
+    margin: 0;
+    translate: 0 1vh;
+}
+
+#Title, #TitleIdle{
+    font-family: "League Spartan", sans-serif;
+    color: #4cd184;
+    font-weight: 800;
+    font-size: calc((100vh + 100vw)/20);
+    min-height: 1.2em;
+}
+
+
+.linear-gradient-black {
+    background: rgb(0,0,3);
+    background: linear-gradient(90deg, rgb(0, 0, 3) 0%, rgba(0, 213, 255, 0) 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#DownloadButton {
+    padding: 0 calc((100vh + 100vw)/70);
+    display: flex;
+    align-items: center;
+    height: calc((100vh + 100vw)/35);
+    border-radius: calc((100vh + 100vw)/70);
+    border-width: calc((100vh + 100vw)/400);
+    border-color: #04ffab;
+    background: rgb(84, 185, 6);
+    background: linear-gradient(80deg, rgb(6, 199, 22) 0%, rgb(8, 119, 88) 77%);
+    color: white;
+    font-family: "Arimo", sans-serif;
+    font-size: calc((100vh + 100vw)/70);
+    font-weight: bold;
+    position: absolute;
+    translate: 0 35vh;
+}
+
+#DownloadButton:hover {
+    background: rgb(81, 180, 5);
+    background: linear-gradient(80deg, rgb(4, 163, 18) 0%, rgb(8, 122, 90) 77%);
+    color: white;
+}
+
+#DownloadButton a {
+    text-decoration: none;
+    color: white;
+}
