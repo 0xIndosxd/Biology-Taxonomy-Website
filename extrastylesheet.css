@@ -71,6 +71,10 @@ ul .active {
     animation-range: 0% cover 50%;
 }
 
+.thumbnail img {
+    border-radius: 20%;
+}
+
 
 footer {
     height: 50vh;
