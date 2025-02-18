@@ -35,7 +35,7 @@ ul .active {
 }
 
 .head-row .side-text ul{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 3rem;
 }
 
@@ -62,7 +62,7 @@ ul .active {
 .row .thumbnail img, .row .side-text h1, .row .side-text h2, .row .side-text ul li, .classification div p{
     animation: appear ease-in-out;
     animation-timeline: view();
-    animation-range: 0% cover 100%;
+    animation-range: 0% cover 50%;
 }
 
 .transition-animation {
